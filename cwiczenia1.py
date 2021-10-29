@@ -1,5 +1,5 @@
 # 2
-from ast import parse
+
 
 zmienna1 = 'Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki. Pięć wieków później zaczął być używany przemyśle elektronicznym, pozostając praktycznie niezmienionym. Spopularyzował się w latach 60. XX w. wraz z publikacją arkuszy Letrasetu, zawierających fragmenty Lorem Ipsum, a ostatnio z zawierającym różne wersje Lorem Ipsum oprogramowaniem przeznaczonym do realizacji druków na komputerach osobistych, jak Aldus PageMaker'
 
@@ -71,8 +71,8 @@ num2lista.reverse()
 print(num2lista[100:20:-5])
 # 13
 
-listosłownik = [{'klucz1': 222, 'klucz2': 333, 'klucz3': 'aaa'}, {'klucz4': 333, 'klucz5': 666, 'klucz6': 'bbb'} ]
+listosłownik = [{'klucz1': 222, 'klucz2': 333, 'klucz3': 'aaa'}, {'klucz4': 333, 'klucz5': 666, 'klucz6': 'bbb'}]
 
 
 def wypisz(lista):
-    string=''
+    string = ''
