@@ -23,13 +23,13 @@ fun1(lista1, lista2)
 # 2
 
 def fun2(dic):
-    slownik = {
+    dicc = {
         'Length': str(len(dic)),
         'letters': str([i for i in dic]),
         'big_letters': str(dic.upper()),
         'small_letters': str(dic.lower())}
 
-    print(dic)
+    print(dicc)
 
 
 fun2('sialalla')
